@@ -7,10 +7,5 @@ export default defineConfig({
         outDir: '../dist',
         emptyOutDir: true,
         manifest: true, // Pastikan opsi manifest diaktifkan
-    },
-    server: {
-        proxy: {
-            '/': 'http://localhost:8000',
-        },
-    },
+    }
 });
